@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bAbrirCerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:onClick="abrircerrar"
+            android:text="Abrir" />
+        
+        <TextView
+            android:id="@+id/txtNombreMod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/bAbrirCerrar"
+            android:layout_marginTop="8sp"
+            android:visibility="visible"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtMsjRecibido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_below="@+id/txtNombreMod"
+            android:layout_marginTop="8sp"
+            android:visibility="visible"
+            android:textColor="#000000" />
+
+
+</RelativeLayout>
